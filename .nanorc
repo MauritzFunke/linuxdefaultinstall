@@ -1,0 +1,10 @@
+set tabsize 4
+set tabstospaces
+set autoindent
+set historylog
+
+
+include "/usr/share/nano/javascript"
+include "/usr/share/nano/html"
+include "/usr/share/nano/ejs"
+
