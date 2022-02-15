@@ -4,3 +4,4 @@ mv linuxdefaultinstall/.zsh .
 mv linuxdefaultinstall/.nanorc .
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 chsh -s $(which zsh)
+apt install powerline
