@@ -4,7 +4,7 @@ USER_DIR=/home/$USER_NAME
 
 # Check if zsh is installed
 if [ ! -f /bin/zsh ]; then
-    apt install zsh
+    apt install -y zsh
 fi
 # Install oh my zsh
 git clone https://github.com/ohmyzsh/ohmyzsh.git $USER_DIR/.oh-my-zsh
